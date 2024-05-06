@@ -1,0 +1,19 @@
+{
+    "require": {
+        "retailcrm/api-client-php": "~6.0",
+        "symfony/http-client": "^7.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true,
+            "civicrm/composer-compile-plugin": true
+        }
+    },
+    "extra": {
+        "compile-whitelist": ["retailcrm/api-client-php"]
+    },
+    "require-dev": {
+        "nyholm/psr7": "^1.8",
+        "phpstan/phpstan": "^1.10"
+    }
+}
